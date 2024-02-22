@@ -1,20 +1,18 @@
 /*
             ***** CICLOS Y CONDICIONES *****
-
-        TAE 2024
-        Author: Cesar Antonio Miranda Alberto
+            
         Fecha: 20-Febrero-2024
-        Versión: 1.0
+        VersiÃ³n: 1.0
 
 */
 
 #include <stdio.h>                                                                                  // Biblioteca estandar de entrada y salida de datos
 
-#define TAMANO_VECTOR 5                                                                             // Constante con el tamaño del vector
+#define TAMANO_VECTOR 5                                                                             // Constante con el tamaÃ±o del vector
 
-int main()                                                                                           // Función Principal
+int main()                                                                                           // FunciÃ³n Principal
 {
-    int numeros[TAMANO_VECTOR];                                                                      // Declaración del vector con respecto a la constante
+    int numeros[TAMANO_VECTOR];                                                                      // DeclaraciÃ³n del vector con respecto a la constante
     int buffer;                                                                                      // Variable para almacenar temporalmente
 
     printf("Ingresa los cinco valores del vector: ");
@@ -35,10 +33,10 @@ int main()                                                                      
         }
     }
 
-    // Ciclo for para mostar los valores del vector con iteraciones respecto al tamaño
+    // Ciclo for para mostar los valores del vector con iteraciones respecto al tamaÃ±o
     for(int i=TAMANO_VECTOR;i>0; i--)
     {
          printf("%i es el valor del vector en la posicion %i del vector \n", numeros[i],i-1);
     }
-    return 0;                       // Programa terminado con éxito
+    return 0;                       // Programa terminado con Ã©xito
 }
